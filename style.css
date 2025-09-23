@@ -12,4 +12,11 @@ body{
     height: 100%;
     width: 100vw;
     font-size: 24px;
+    display: grid;
+    grid-template-rows: 180px auto 100px;
+}
+
+header{
+    display: flex;
+    color:#f5bf03;
 }
