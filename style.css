@@ -22,10 +22,20 @@ body{
 }
 header{
     display: flex;
-    background:#f5bf03;
+     background:#f5bf03;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     text-align: center;
+
 }
 
 footer{
 width:100%;
 background-color: #9C6ADE;
+}
+.Pokemon{
+    height:100%;
+    align-items:right;
+
 }
