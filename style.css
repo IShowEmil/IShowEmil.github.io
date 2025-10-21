@@ -18,7 +18,7 @@ body{
 body{
     display: grid;
     grid-template-rows: 180px auto 100px;
-    background-color:#7fffd4 ;
+    background-color:#0A84FF;
 }
 header{
     display: flex;
