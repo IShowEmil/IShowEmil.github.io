@@ -5,40 +5,40 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    size: 1em;
 }
 
-html,
-body{
-    height: 100%;
-    width: 100vw;
-    font-size: 24px;
-}
 /*End of Reset*/
 
-body{
+body {
+    height: 100dvh;
+    width: 100dvw;
+    font-size: 1.5rem;
     display: grid;
     grid-template-rows: 180px auto 100px;
-    background-color:#0A84FF;
+    background-color: #0A84FF;
 }
-header{
+
+header {
     display: flex;
-     background:#f5bf03;
-     flex-direction: row;
-     align-items: center;
-     justify-content: space-between;
-     text-align: center;
-
+    background: #f5bf03;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
-footer{
-width:100%;
-background-color: #9C6ADE;
-}
-.Pokemon{
-    height:100%;
-    align-items:right;
-
-}
 main {
-    padding:50px;
+    padding: 5em;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #9C6ADE;
+}
+
+.Pokemon {
+    height: 100%;
+    align-items: right;
 }
